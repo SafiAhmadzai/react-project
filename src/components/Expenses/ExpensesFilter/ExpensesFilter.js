@@ -2,7 +2,7 @@ import React from "react";
 
 import "./ExpensesFilter.css";
 
-const ExpensesFilter = () => {
+const ExpensesFilter = (props) => {
   return (
     <div className="expenses-filter">
       <div className="expenses-filter__control">
